@@ -1,4 +1,4 @@
 Resolusi coding
-- Mencoba mencari tau banyak bahasa pemrograman
 - Mencari peminatan spesifik di dalam pemrograman
 - Rajin push coding sehari minimal 2 jam
+- Mengutamakan latihan problem solving dalam pemrograman suatu bahasa
