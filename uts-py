@@ -1,0 +1,44 @@
+def diskon_baru(amount):
+    if amount <= 200000:
+        return amount * 0.10
+    elif amount > 200000 and amount <= 500000:
+        return amount * 0.15
+    else:
+        return amount * 0.20
+    
+def diskon_lama(amount):
+    if amount <= 100000:
+        return amount * 0.15
+    elif amount > 100000 and amount <= 250000:
+        return amount * 0.20
+    else:
+        return amount * 0.25
+        
+
+
+def mainMenu():
+    print("Diskon yang tersedia:")
+    print("1. Barang Baru")
+    print("2. Barang Lama")
+    pilihan = input("Pilih Diskon: ")
+
+    if pilihan == '1':
+        pil_a()
+    elif pilihan == '2':
+        pil_b()
+    else:
+        print("Pilihan invalid, silakan coba lagi")
+        mainMenu()
+    
+def pil_a():
+    print("Barang Baru")
+    print("1. barang up to 200.000")
+    print("2. diatas 200.000 hingga 500.000")
+    print("3. diatas 500.000")
+    pilihan = input("Masukkan pilihan: ")   
+    
+    if pilihan == '1':
+        print("Kamu memilih barang baru dari harga 0 - 200.000")
+        
+        
+mainMenu()
